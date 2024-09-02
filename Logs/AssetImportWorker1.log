@@ -1,0 +1,981 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/lukea/Projects/Spuddios 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58457
+Successfully changed project path to: C:/Users/lukea/Projects/Spuddios 2
+C:/Users/lukea/Projects/Spuddios 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [58720]  Target information:
+
+Player connection [58720]  * "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 2449566596 [EditorId] 2449566596 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TS9QH21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [58720] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [58720] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 14.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lukea/Projects/Spuddios 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11027 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013798 seconds.
+- Loaded All Assemblies, in  0.388 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 644ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+0x00007ff77946da7d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff779472b59 (Unity) StackWalker::ShowCallstack
+0x00007ff77a460a11 (Unity) GetStacktrace
+0x00007ff77ab1ba5e (Unity) DebugStringToFile
+0x00007ff77ab1b79a (Unity) AssertImplementation
+0x00007ff77a2fe99c (Unity) Internal_ADB_WorkerOnly_DomainReload
+0x00007ff77a7e5074 (Unity) WorkerDomainReloadV2
+0x00007ff77a805c9f (Unity) <lambda_943be6b2c5671afd01d59371cf3ef730>::operator()
+0x00007ff77a841a92 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff77a82da3e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff77a82f66e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff77a83fe3c (Unity) IOService::Run
+0x00007ff77a8132bf (Unity) AssetImportWorkerClient::Run
+0x00007ff77a7dec27 (Unity) RunAssetImportWorkerClientV2
+0x00007ff77a7decab (Unity) RunAssetImporterV2
+0x00007ff779fd867e (Unity) Application::InitializeProject
+0x00007ff77a46b6a5 (Unity) WinMain
+0x00007ff77b81d35e (Unity) __scrt_common_main_seh
+0x00007ffa83eb7374 (KERNEL32) BaseThreadInitThunk
+0x00007ffa85ebcc91 (ntdll) RtlUserThreadStart
+
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.671 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 9.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4281 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 4750.
+Memory consumption went from 145.9 MB to 145.8 MB.
+Total: 3.561500 ms (FindLiveObjects: 0.463400 ms CreateObjectMapping: 0.443100 ms MarkObjects: 2.559700 ms  DeleteObjects: 0.094200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+0x00007ff77946da7d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff779472b59 (Unity) StackWalker::ShowCallstack
+0x00007ff77a460a11 (Unity) GetStacktrace
+0x00007ff77ab1ba5e (Unity) DebugStringToFile
+0x00007ff77ab1b79a (Unity) AssertImplementation
+0x00007ff77a2fe99c (Unity) Internal_ADB_WorkerOnly_DomainReload
+0x00007ff77a7e5074 (Unity) WorkerDomainReloadV2
+0x00007ff77a806285 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
+0x00007ff77a841a92 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff77a82da3e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff77a82f6a4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff77a83fe3c (Unity) IOService::Run
+0x00007ff77a8132bf (Unity) AssetImportWorkerClient::Run
+0x00007ff77a7dec27 (Unity) RunAssetImportWorkerClientV2
+0x00007ff77a7decab (Unity) RunAssetImporterV2
+0x00007ff779fd867e (Unity) Application::InitializeProject
+0x00007ff77a46b6a5 (Unity) WinMain
+0x00007ff77b81d35e (Unity) __scrt_common_main_seh
+0x00007ffa83eb7374 (KERNEL32) BaseThreadInitThunk
+0x00007ffa85ebcc91 (ntdll) RtlUserThreadStart
+
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.901 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1456ms
+	BeginReloadAssembly (590ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (447ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (127.0 KB). Loaded Objects now: 4929.
+Memory consumption went from 147.5 MB to 147.3 MB.
+Total: 2.884000 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.326700 ms MarkObjects: 2.144600 ms  DeleteObjects: 0.078000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CinemachineGroupComposerEditor.cs: 54a07f36704e77a685a5e7e8c8b2c216 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfinerEditor.cs: cc6c898a3390647ab91613c8a96de4b4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendDefinitionPropertyDrawer.cs: 7ae344d19d646b738f3c65294becf216 -> 
+  custom:scripting/monoscript/fileName/CinemachineTrackedDollyEditor.cs: b4d6784c58752cea58aafd9a76ca4459 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseManager.cs: c34be3577a810e26fd0110c580799b88 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPath.cs: c28db2688f35d70587b5f943431a010a -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCamera.cs: aea2468a7384be4ba6d1b043ccec135d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettings.cs: 9adcb80668a56be4cd8e31c1d3dc60ae -> 
+  custom:scripting/monoscript/fileName/SignalSourceAsset.cs: f7ffd463dece56bad278f5a8d3ed7fc6 -> 
+  custom:scripting/monoscript/fileName/CinemachineCore.cs: fe6c3be993819098833de1628bfd76b2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannelPropertyDrawer.cs: 4b6390a17916751618e2a45cb8d47a80 -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelper.cs: b04ac165255e34bc2935ca9bf180e209 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposer.cs: 7943c9d436748359882d8f978cf86c91 -> 
+  custom:scripting/monoscript/fileName/AxisState.cs: 1a494a66d8b9a58f4a6873f89bf5b094 -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShot.cs: 1da15f5c7903497ce3ae982ee4ee4779 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOVEditor.cs: 71db5a9242a182995b4ca15db516f628 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixer.cs: 2e36eb9e732dd7c8a32e8f83daebd6f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner.cs: 3813336c17662a5cb6b59ce5f1954254 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrain.cs: 365b4e0b6319f064062e97b8f8e32c8e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinitionPropertyDrawer.cs: 1b2fc77b0a80a7e0e9045e0d44fb761c -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderPrefs.cs: 47106451d4685409820905badf49b71f -> 
+  custom:scripting/monoscript/fileName/CinemachineFollowZoom.cs: eb74e2e98d3dc4647324e113f34710ca -> 
+  custom:scripting/monoscript/fileName/CinemachineDebug.cs: 3077ed3b64725184c652d4c07ac732fd -> 
+  custom:scripting/monoscript/fileName/CinemachineLensPresets.cs: 014747fb0ab87178c677520d0bf20bf7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraOffset.cs: a6887f67d3eb83cc6393b822d4e65121 -> 
+  custom:scripting/monoscript/fileName/ICinemachineCamera.cs: 2faad4f04eaf5d98c2870adbfb06184e -> 
+  custom:scripting/monoscript/fileName/CinemachineShotPlayable.cs: e346ad1ecb4af45da55274cb9abd9ec0 -> 
+  custom:scripting/monoscript/fileName/CinemachineTagFieldPropertyDrawer.cs: e78491a12decd558a49d01cc583bfcfb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettings.cs: 22782cc3dbf8dfd1cb54e8486f29fe0d -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSourceEditor.cs: 0ef7804c69c18838aa65e6d5bae5b055 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCameraEditor.cs: d74df442250b898c9b40669a19100e9d -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroupEditor.cs: f70ac85df8c1c9bd0b83a35534bafd1f -> 
+  custom:scripting/monoscript/fileName/CinemachineRecomposer.cs: 07354cca81f7d0775b027b5906330569 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposer.cs: aa226dd144b3a977b86ea888b85df5fa -> 
+  custom:scripting/monoscript/fileName/TargetPositionCache.cs: 49ce97e6930a536b43825141e0c2d3a4 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCamera.cs: d76122377115c288d881064c3f07a3f1 -> 
+  custom:scripting/monoscript/fileName/ReflectionHelpers.cs: 60a5d38af3e775d0a421a7ff630d61cc -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCamera.cs: f16f2dc5bc1261579875c19605c45301 -> 
+  custom:scripting/monoscript/fileName/Predictor.cs: d51584936cb5b31b30ee7b444e03385b -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposerEditor.cs: 5ea2e4bec7ee6c24917bd86647f4bffa -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2DEditor.cs: 3f4b3d9b17ff5cd560135aa24f822994 -> 
+  custom:scripting/monoscript/fileName/GroupWeightManipulator.cs: 588749cf3436a8199e762a8e09bc8de7 -> 
+  custom:scripting/monoscript/fileName/AxisStatePropertyDrawer.cs: 2d807695a513641e771c78e6c342ff04 -> 
+  custom:scripting/monoscript/fileName/CinemachineScreenComposerGuides.cs: cdc7ea02ccc4c8d1561d98d16760d1ca -> 
+  custom:scripting/monoscript/fileName/CinemachinePropertyAttribute.cs: e8158d9725ac3a9129a08e46a4ff7519 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraEditor.cs: 2e051d0c474634e907fe4123d6e2656e -> 
+  custom:scripting/monoscript/fileName/CinemachineSettings.cs: 197f6d5ad32e253546b5afa056a5bba4 -> 
+  custom:scripting/monoscript/fileName/CinemachineNoiseSettingsEditor.cs: 9056e69d9c759ba2504535054fff31c9 -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerAction.cs: cab9c5d02c28af05797c2c3743539bdb -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: d2444697ecf5f370ee1ff9969e9d66f8 -> 1cf92e4af45cb9e9886ec49564b001a9
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettingsEditor.cs: c57aa7de12bc3e7367ca091f4902c67b -> 
+  custom:scripting/precompiled-assembly-types:Cinemachine: 54c8b091bb91c32bfeada952c9c53e21 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinition.cs: 3d434086a2bdaf715abf85e79e9f14b4 -> 
+  custom:scripting/precompiled-assembly-types:com.unity.cinemachine.editor: e24bde9f61664824443e2ae04112f2bb -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollowEditor.cs: f79aa162534f81c680877e6274b5d6ec -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetPropertyDrawer.cs: fd7ebc18093de04c88d0cfc86fb060f5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ConfinerOven.cs: ff23c03e90b61beb34474fc6e4ff668c -> 
+  custom:scripting/monoscript/fileName/WaveformWindow.cs: 01bbc4fc017d41a2bab7fb57c988e8da -> 
+  custom:scripting/monoscript/fileName/CinemachinePipeline.cs: 6ca7a5979a0a73ea1d450a8fc9b437ef -> 
+  custom:scripting/monoscript/fileName/VcamStageEditor.cs: 84b0eaf932b448975a99972628e556d8 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposerEditor.cs: 1653e1c00b2ca68b1d40f01e5bfb8445 -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCameraEditor.cs: 77d9f0a97385f936d9b4ffaa686bce39 -> 
+  custom:scripting/monoscript/fileName/OrbitalTransposerHeadingPropertyDrawer.cs: 22496b76ce84f35f630c90badc4babd8 -> 
+  custom:scripting/monoscript/fileName/CinemachinePathEditor.cs: ce10985fbf0e018e2dea63fedae131ba -> 
+  custom:scripting/monoscript/fileName/CinemachineCollider.cs: 8fa92f525b1c31cd81812685d7f8c288 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSourceEditor.cs: 29f9a522ec6b23375849ba08fd597c8d -> 
+  custom:scripting/monoscript/fileName/CinemachineInputProvider.cs: ecb845de690695f08b3b3bb647cc7006 -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderEditor.cs: 859d1abbd669ee84cb713f6d4d0e1c5f -> 
+  custom:scripting/monoscript/fileName/CinemachineExtension.cs: 6968db4afcdc301f6acb1ef4fbadb2f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroup.cs: 10a09aa736b3a25da6dd9fc3c4dd9d36 -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetHelpers.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCamera.cs: 66104ac24fef171d9f5d5b93a8cb2f83 -> 
+  custom:scripting/monoscript/fileName/CinemachineComponentBase.cs: 5293f153c13e9bd2fc262ec31ff69206 -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAt.cs: 792580aec23d39bcecd7ceea4c27a0ce -> 
+  custom:scripting/monoscript/fileName/CinemachineInputAxisDriver.cs: 7e424e54660fed310c58dc98ea41042e -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboardEditor.cs: 2e7ec8bfb72013eaaff4873a27da019c -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlin.cs: bd5416e75860cd63657371207eb79058 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCamera.cs: 739c5ceb76c01023f431794ec46a0177 -> 
+  custom:scripting/monoscript/fileName/CinemachinePath.cs: b443d3c8837a65ddc3c78741cd58ec71 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListenerEditor.cs: d5d28e418f87c111bce1c1b98f1f70ba -> 
+  custom:scripting/monoscript/fileName/CinemachineDollyCart.cs: bbe9d07f4a2f7ee5ab002e66cb05f922 -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboard.cs: 59a2099f76be9b47af1e12ed7d40f553 -> 
+  custom:scripting/monoscript/fileName/CinemachinePixelPerfect.cs: b7f26206e386f5a110efe79462337683 -> d8eeccc3084a3215230031c76ddf563b
+  custom:scripting/monoscript/fileName/CinemachineTrackedDolly.cs: f6a9c21b27ad86d45f62f6b444ccbb49 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAtEditor.cs: 15b8f2af6a6d786898ce5dd6b0db26dc -> 
+  custom:scripting/monoscript/fileName/CinemachineComposer.cs: e399dfd36807c341da7cd182ce299d1e -> 
+  custom:scripting/monoscript/fileName/CinemachineTrack.cs: 4b50d47d507c57dc81b82253ec075194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPathEditor.cs: 7555bcba4eb760e012dd21c6730ae562 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: c529d074f6f57a07e3f410d488963bbc -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposer.cs: 71c52878ba6d43827473a480056a99da -> 
+  custom:scripting/monoscript/fileName/CinemachinePathBase.cs: debb99764287c54cae06313e2d6a1fe1 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSource.cs: ac073b8453e26c5dd422d5f1a90a7ff2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseEnvelopePropertyDrawer.cs: 07e00c9c84964a5c7e4f3f19e4263ec1 -> 
+  custom:scripting/monoscript/fileName/SplineHelpers.cs: 9e5bf4293b3828088291b7871e233a27 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTargetEditor.cs: 6def40fc1e39b3242347b6630fb5127e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCameraEditor.cs: dbc12d2a9f3e2999a067290c411b2aca -> 
+  custom:scripting/monoscript/fileName/CinemachineShot.cs: 3d4d9d05534db20e82d871d98ea52716 -> 
+  custom:scripting/monoscript/fileName/UnityVectorExtensions.cs: 052777772edecdffe26d41a6a989641e -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlinEditor.cs: d6749cd6c482efa27bdd41f60394f1b9 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannels.cs: a9a39cc5ecea1f083db0fce154eec19c -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTarget.cs: d349308c5b4f600a345055c394206f52 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2D.cs: beb10be0db8ff9d3a94bd0a150963b9b -> 
+  custom:scripting/monoscript/fileName/LensSettings.cs: 4335e899502c57ee4480b8c9aa915366 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonAim.cs: 4bd230d915f070bb3cae23bef6f7ab70 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListener.cs: 6aac146243d38e7a67346170caa40ea1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CinemachineMenu.cs: 7b932811d9fa1e44d0d8b2b9ed75adf3 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtility.cs: 8c92a9f673836e5d2084dbeb0f10159f -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLook.cs: bebc32b18bc4beddc113bad68624e557 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CinemachineGroupComposer.cs: 173a689a80ef321c302f9c045419668f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBase.cs: c7e60cccdcb14ee2a33da9fd46c1c54f -> 
+  custom:scripting/monoscript/fileName/CinemachineFixedSignal.cs: aedcdca7a861da6e456e0ae105b24c41 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotClipEditor.cs: 123a48531bf1d1b4f3c8398556caec62 -> 
+  custom:scripting/monoscript/fileName/CinemachineTouchInputMapper.cs: b9698729a07a7d31c864247e0582b566 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOV.cs: e4df06d1994174afa286b103eb06ee7f -> 
+  custom:scripting/monoscript/fileName/CinemachineBlend.cs: f33659d50c4d86144d649aa7e8196529 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLookEditor.cs: 9641291977c1891a004ac4c4c259e1c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposerEditor.cs: 85841a774ddea4fb7232a7a585f716b4 -> 
+  custom:scripting/monoscript/fileName/clipper.cs: 53f5c40fad751f34bbeafb535c00f79e -> 22e13a245d7963b8d93b36b8648c74f6
+  custom:scripting/monoscript/fileName/NoiseSettings.cs: 443d576e0c72ab62870476103c9384ec -> 
+  custom:scripting/monoscript/fileName/GaussianFilter.cs: 0a3672ebe80edf7c5daca82445c15683 -> 
+  custom:scripting/monoscript/fileName/CinemachineSceneTools.cs: d63880a6073ab3335301b115db235b5b -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerActionEditor.cs: 2309a2ec6192ace4cae8bab5a535978e -> 
+  custom:scripting/monoscript/fileName/VcamTargetPropertyDrawer.cs: 9208050b1312b118a226fef2d63e8fa1 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSource.cs: 9aae5e368cb7786be199f98f2122f96d -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShotEditor.cs: ca8875b47e775cd361c78158d7923690 -> 
+  custom:scripting/monoscript/fileName/CinemachineEditorAnalytics.cs: de76cc292d7ecedcf47af6616498c9f9 -> 
+  custom:scripting/monoscript/fileName/NoiseSettingsPropertyDrawer.cs: 8d3f69ba7eeec63914970bd3136b6ace -> 
+  custom:scripting/monoscript/fileName/CinemachineBrainEditor.cs: 49621d8b7679c0b5d128fef53d55becd -> 
+  custom:scripting/monoscript/fileName/CinemachineShotEditor.cs: 2ba28b209a4ad7f0a791994d2360a9af -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTargetEditor.cs: c65eaafd47115974a2a9379aae467b0e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraState.cs: 6ae7088fa20820e052d1e4d86059e90b -> 
+  custom:scripting/monoscript/fileName/CinemachineToolbarOverlay.cs: 371b6fc494252d6fda34e207e170cb66 -> 
+  custom:scripting/monoscript/fileName/CinemachineIndependentImpulseListener.cs: 91ae8748b9c36955c333e57505ff90fb -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCameraEditor.cs: 1c122a21d710512fec62cdc7bd351681 -> 
+  custom:scripting/monoscript/fileName/CinemachinePostProcessing.cs: bf9b100a1b61fd5383288bc96487c194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTarget.cs: bcfa2d394e1e5460b4ef3dc039214a16 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBaseEditor.cs: 13ee4931cd85df4b22852d0547b5e690 -> 
+  custom:scripting/monoscript/fileName/UpdateTracker.cs: 3dac8a24a32a32e4bbfeb38ed26ef250 -> 
+  custom:scripting/monoscript/fileName/CinemachineComposerEditor.cs: dda533b9c6cb2b366292f584704bd904 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollow.cs: 4600bac2bdf6b37d80e86f9aa5a413c3 -> 
+  custom:scripting/monoscript/fileName/SaveDuringPlay.cs: de39f1962b337699845d3d8a2e8f5bde -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 1414ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 7.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (182.8 KB). Loaded Objects now: 4950.
+Memory consumption went from 147.2 MB to 147.0 MB.
+Total: 2.714200 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.271800 ms MarkObjects: 2.039600 ms  DeleteObjects: 0.105300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CinemachineGroupComposerEditor.cs: 54a07f36704e77a685a5e7e8c8b2c216 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfinerEditor.cs: cc6c898a3390647ab91613c8a96de4b4 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendDefinitionPropertyDrawer.cs: 7ae344d19d646b738f3c65294becf216 -> 
+  custom:scripting/monoscript/fileName/CinemachineTrackedDollyEditor.cs: b4d6784c58752cea58aafd9a76ca4459 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseManager.cs: c34be3577a810e26fd0110c580799b88 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPath.cs: c28db2688f35d70587b5f943431a010a -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCamera.cs: aea2468a7384be4ba6d1b043ccec135d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettings.cs: 9adcb80668a56be4cd8e31c1d3dc60ae -> 
+  custom:scripting/monoscript/fileName/SignalSourceAsset.cs: f7ffd463dece56bad278f5a8d3ed7fc6 -> 
+  custom:scripting/monoscript/fileName/CinemachineCore.cs: fe6c3be993819098833de1628bfd76b2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannelPropertyDrawer.cs: 4b6390a17916751618e2a45cb8d47a80 -> 
+  custom:scripting/monoscript/fileName/SerializedPropertyHelper.cs: b04ac165255e34bc2935ca9bf180e209 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposer.cs: 7943c9d436748359882d8f978cf86c91 -> 
+  custom:scripting/monoscript/fileName/AxisState.cs: 1a494a66d8b9a58f4a6873f89bf5b094 -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShot.cs: 1da15f5c7903497ce3ae982ee4ee4779 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOVEditor.cs: 71db5a9242a182995b4ca15db516f628 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixer.cs: 2e36eb9e732dd7c8a32e8f83daebd6f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner.cs: 3813336c17662a5cb6b59ce5f1954254 -> 
+  custom:scripting/monoscript/fileName/CinemachineBrain.cs: 365b4e0b6319f064062e97b8f8e32c8e -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinitionPropertyDrawer.cs: 1b2fc77b0a80a7e0e9045e0d44fb761c -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderPrefs.cs: 47106451d4685409820905badf49b71f -> 
+  custom:scripting/monoscript/fileName/CinemachineFollowZoom.cs: eb74e2e98d3dc4647324e113f34710ca -> 
+  custom:scripting/monoscript/fileName/CinemachineDebug.cs: 3077ed3b64725184c652d4c07ac732fd -> 
+  custom:scripting/monoscript/fileName/CinemachineLensPresets.cs: 014747fb0ab87178c677520d0bf20bf7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CinemachineCameraOffset.cs: a6887f67d3eb83cc6393b822d4e65121 -> 
+  custom:scripting/monoscript/fileName/ICinemachineCamera.cs: 2faad4f04eaf5d98c2870adbfb06184e -> 
+  custom:scripting/monoscript/fileName/CinemachineShotPlayable.cs: e346ad1ecb4af45da55274cb9abd9ec0 -> 
+  custom:scripting/monoscript/fileName/CinemachineTagFieldPropertyDrawer.cs: e78491a12decd558a49d01cc583bfcfb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CinemachineVolumeSettings.cs: 22782cc3dbf8dfd1cb54e8486f29fe0d -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSourceEditor.cs: 0ef7804c69c18838aa65e6d5bae5b055 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCameraEditor.cs: d74df442250b898c9b40669a19100e9d -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroupEditor.cs: f70ac85df8c1c9bd0b83a35534bafd1f -> 
+  custom:scripting/monoscript/fileName/CinemachineRecomposer.cs: 07354cca81f7d0775b027b5906330569 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposer.cs: aa226dd144b3a977b86ea888b85df5fa -> 
+  custom:scripting/monoscript/fileName/TargetPositionCache.cs: 49ce97e6930a536b43825141e0c2d3a4 -> 
+  custom:scripting/monoscript/fileName/CinemachineExternalCamera.cs: d76122377115c288d881064c3f07a3f1 -> 
+  custom:scripting/monoscript/fileName/ReflectionHelpers.cs: 60a5d38af3e775d0a421a7ff630d61cc -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCamera.cs: f16f2dc5bc1261579875c19605c45301 -> 
+  custom:scripting/monoscript/fileName/Predictor.cs: d51584936cb5b31b30ee7b444e03385b -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposerEditor.cs: 5ea2e4bec7ee6c24917bd86647f4bffa -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2DEditor.cs: 3f4b3d9b17ff5cd560135aa24f822994 -> 
+  custom:scripting/monoscript/fileName/GroupWeightManipulator.cs: 588749cf3436a8199e762a8e09bc8de7 -> 
+  custom:scripting/monoscript/fileName/AxisStatePropertyDrawer.cs: 2d807695a513641e771c78e6c342ff04 -> 
+  custom:scripting/monoscript/fileName/CinemachineScreenComposerGuides.cs: cdc7ea02ccc4c8d1561d98d16760d1ca -> 
+  custom:scripting/monoscript/fileName/CinemachinePropertyAttribute.cs: e8158d9725ac3a9129a08e46a4ff7519 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraEditor.cs: 2e051d0c474634e907fe4123d6e2656e -> 
+  custom:scripting/monoscript/fileName/CinemachineSettings.cs: 197f6d5ad32e253546b5afa056a5bba4 -> 
+  custom:scripting/monoscript/fileName/CinemachineNoiseSettingsEditor.cs: 9056e69d9c759ba2504535054fff31c9 -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerAction.cs: cab9c5d02c28af05797c2c3743539bdb -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: d2444697ecf5f370ee1ff9969e9d66f8 -> 1cf92e4af45cb9e9886ec49564b001a9
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlenderSettingsEditor.cs: c57aa7de12bc3e7367ca091f4902c67b -> 
+  custom:scripting/precompiled-assembly-types:Cinemachine: 54c8b091bb91c32bfeada952c9c53e21 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseDefinition.cs: 3d434086a2bdaf715abf85e79e9f14b4 -> 
+  custom:scripting/precompiled-assembly-types:com.unity.cinemachine.editor: e24bde9f61664824443e2ae04112f2bb -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollowEditor.cs: f79aa162534f81c680877e6274b5d6ec -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetPropertyDrawer.cs: fd7ebc18093de04c88d0cfc86fb060f5 -> 
+  custom:scripting/monoscript/fileName/LayerTrigger.cs: 949eaa5cbbace5cb99a3cd3cb175e850 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteColorAnimation.cs: 4b60499cc4c43b7b4a7721f49f3235e7 -> 
+  custom:scripting/monoscript/fileName/ConfinerOven.cs: ff23c03e90b61beb34474fc6e4ff668c -> 
+  custom:scripting/monoscript/fileName/WaveformWindow.cs: 01bbc4fc017d41a2bab7fb57c988e8da -> 
+  custom:scripting/monoscript/fileName/CinemachinePipeline.cs: 6ca7a5979a0a73ea1d450a8fc9b437ef -> 
+  custom:scripting/monoscript/fileName/VcamStageEditor.cs: 84b0eaf932b448975a99972628e556d8 -> 
+  custom:scripting/monoscript/fileName/CinemachineFramingTransposerEditor.cs: 1653e1c00b2ca68b1d40f01e5bfb8445 -> 
+  custom:scripting/monoscript/fileName/CinemachineStateDrivenCameraEditor.cs: 77d9f0a97385f936d9b4ffaa686bce39 -> 
+  custom:scripting/monoscript/fileName/OrbitalTransposerHeadingPropertyDrawer.cs: 22496b76ce84f35f630c90badc4babd8 -> 
+  custom:scripting/monoscript/fileName/CinemachinePathEditor.cs: ce10985fbf0e018e2dea63fedae131ba -> 
+  custom:scripting/monoscript/fileName/CinemachineCollider.cs: 8fa92f525b1c31cd81812685d7f8c288 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSourceEditor.cs: 29f9a522ec6b23375849ba08fd597c8d -> 
+  custom:scripting/monoscript/fileName/CinemachineInputProvider.cs: ecb845de690695f08b3b3bb647cc7006 -> 
+  custom:scripting/monoscript/fileName/CinemachineColliderEditor.cs: 859d1abbd669ee84cb713f6d4d0e1c5f -> 
+  custom:scripting/monoscript/fileName/CinemachineExtension.cs: 6968db4afcdc301f6acb1ef4fbadb2f4 -> 
+  custom:scripting/monoscript/fileName/CinemachineTargetGroup.cs: 10a09aa736b3a25da6dd9fc3c4dd9d36 -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: 0eb351f923cdcb0d7750461aab444863 -> 
+  custom:scripting/monoscript/fileName/EmbeddedAssetHelpers.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCamera.cs: 66104ac24fef171d9f5d5b93a8cb2f83 -> 
+  custom:scripting/monoscript/fileName/CinemachineComponentBase.cs: 5293f153c13e9bd2fc262ec31ff69206 -> 
+  custom:scripting/monoscript/fileName/BaseEditor.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAt.cs: 792580aec23d39bcecd7ceea4c27a0ce -> 
+  custom:scripting/monoscript/fileName/CinemachineInputAxisDriver.cs: 7e424e54660fed310c58dc98ea41042e -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboardEditor.cs: 2e7ec8bfb72013eaaff4873a27da019c -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlin.cs: bd5416e75860cd63657371207eb79058 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCamera.cs: 739c5ceb76c01023f431794ec46a0177 -> 
+  custom:scripting/monoscript/fileName/CinemachinePath.cs: b443d3c8837a65ddc3c78741cd58ec71 -> 
+  custom:scripting/monoscript/fileName/TopDownCharacterController.cs: 6a72fae984a5b5ba0e1cf975f6787b9a -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListenerEditor.cs: d5d28e418f87c111bce1c1b98f1f70ba -> 
+  custom:scripting/monoscript/fileName/CinemachineDollyCart.cs: bbe9d07f4a2f7ee5ab002e66cb05f922 -> 
+  custom:scripting/monoscript/fileName/CinemachineStoryboard.cs: 59a2099f76be9b47af1e12ed7d40f553 -> 
+  custom:scripting/monoscript/fileName/CinemachinePixelPerfect.cs: b7f26206e386f5a110efe79462337683 -> d8eeccc3084a3215230031c76ddf563b
+  custom:scripting/monoscript/fileName/CinemachineTrackedDolly.cs: f6a9c21b27ad86d45f62f6b444ccbb49 -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLookAtEditor.cs: 15b8f2af6a6d786898ce5dd6b0db26dc -> 
+  custom:scripting/monoscript/fileName/CinemachineComposer.cs: e399dfd36807c341da7cd182ce299d1e -> 
+  custom:scripting/monoscript/fileName/CinemachineTrack.cs: 4b50d47d507c57dc81b82253ec075194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSmoothPathEditor.cs: 7555bcba4eb760e012dd21c6730ae562 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectUtility.cs: c529d074f6f57a07e3f410d488963bbc -> 
+  custom:scripting/monoscript/fileName/CinemachineOrbitalTransposer.cs: 71c52878ba6d43827473a480056a99da -> 
+  custom:scripting/monoscript/fileName/CinemachinePathBase.cs: debb99764287c54cae06313e2d6a1fe1 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseSource.cs: ac073b8453e26c5dd422d5f1a90a7ff2 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseEnvelopePropertyDrawer.cs: 07e00c9c84964a5c7e4f3f19e4263ec1 -> 
+  custom:scripting/monoscript/fileName/SplineHelpers.cs: 9e5bf4293b3828088291b7871e233a27 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTargetEditor.cs: 6def40fc1e39b3242347b6630fb5127e -> 
+  custom:scripting/monoscript/fileName/CinemachineBlendListCameraEditor.cs: dbc12d2a9f3e2999a067290c411b2aca -> 
+  custom:scripting/monoscript/fileName/CinemachineShot.cs: 3d4d9d05534db20e82d871d98ea52716 -> 
+  custom:scripting/monoscript/fileName/UnityVectorExtensions.cs: 052777772edecdffe26d41a6a989641e -> 
+  custom:scripting/monoscript/fileName/CinemachineBasicMultiChannelPerlinEditor.cs: d6749cd6c482efa27bdd41f60394f1b9 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseChannels.cs: a9a39cc5ecea1f083db0fce154eec19c -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTarget.cs: d349308c5b4f600a345055c394206f52 -> 
+  custom:scripting/monoscript/fileName/CinemachineConfiner2D.cs: beb10be0db8ff9d3a94bd0a150963b9b -> 
+  custom:scripting/monoscript/fileName/LensSettings.cs: 4335e899502c57ee4480b8c9aa915366 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonAim.cs: 4bd230d915f070bb3cae23bef6f7ab70 -> 
+  custom:scripting/monoscript/fileName/CinemachineImpulseListener.cs: 6aac146243d38e7a67346170caa40ea1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CinemachineMenu.cs: 7b932811d9fa1e44d0d8b2b9ed75adf3 -> 
+  custom:scripting/monoscript/fileName/RuntimeUtility.cs: 8c92a9f673836e5d2084dbeb0f10159f -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLook.cs: bebc32b18bc4beddc113bad68624e557 -> 
+  custom:scripting/monoscript/fileName/PropsAltar.cs: 330897db6e74a178c13f23e82287a5f7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CinemachineGroupComposer.cs: 173a689a80ef321c302f9c045419668f -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBase.cs: c7e60cccdcb14ee2a33da9fd46c1c54f -> 
+  custom:scripting/monoscript/fileName/CinemachineFixedSignal.cs: aedcdca7a861da6e456e0ae105b24c41 -> 
+  custom:scripting/monoscript/fileName/CinemachineShotClipEditor.cs: 123a48531bf1d1b4f3c8398556caec62 -> 
+  custom:scripting/monoscript/fileName/CinemachineTouchInputMapper.cs: b9698729a07a7d31c864247e0582b566 -> 
+  custom:scripting/monoscript/fileName/CinemachinePOV.cs: e4df06d1994174afa286b103eb06ee7f -> 
+  custom:scripting/monoscript/fileName/CinemachineBlend.cs: f33659d50c4d86144d649aa7e8196529 -> 
+  custom:scripting/monoscript/fileName/CinemachineFreeLookEditor.cs: 9641291977c1891a004ac4c4c259e1c8 -> 
+  custom:scripting/monoscript/fileName/CinemachineTransposerEditor.cs: 85841a774ddea4fb7232a7a585f716b4 -> 
+  custom:scripting/monoscript/fileName/clipper.cs: 53f5c40fad751f34bbeafb535c00f79e -> 22e13a245d7963b8d93b36b8648c74f6
+  custom:scripting/monoscript/fileName/NoiseSettings.cs: 443d576e0c72ab62870476103c9384ec -> 
+  custom:scripting/monoscript/fileName/GaussianFilter.cs: 0a3672ebe80edf7c5daca82445c15683 -> 
+  custom:scripting/monoscript/fileName/CinemachineSceneTools.cs: d63880a6073ab3335301b115db235b5b -> 
+  custom:scripting/monoscript/fileName/CinemachineTriggerActionEditor.cs: 2309a2ec6192ace4cae8bab5a535978e -> 
+  custom:scripting/monoscript/fileName/VcamTargetPropertyDrawer.cs: 9208050b1312b118a226fef2d63e8fa1 -> 
+  custom:scripting/monoscript/fileName/CinemachineCollisionImpulseSource.cs: 9aae5e368cb7786be199f98f2122f96d -> 
+  custom:scripting/monoscript/fileName/CinemachineClearShotEditor.cs: ca8875b47e775cd361c78158d7923690 -> 
+  custom:scripting/monoscript/fileName/CinemachineEditorAnalytics.cs: de76cc292d7ecedcf47af6616498c9f9 -> 
+  custom:scripting/monoscript/fileName/NoiseSettingsPropertyDrawer.cs: 8d3f69ba7eeec63914970bd3136b6ace -> 
+  custom:scripting/monoscript/fileName/CinemachineBrainEditor.cs: 49621d8b7679c0b5d128fef53d55becd -> 
+  custom:scripting/monoscript/fileName/CinemachineShotEditor.cs: 2ba28b209a4ad7f0a791994d2360a9af -> 
+  custom:scripting/monoscript/fileName/CinemachineHardLockToTargetEditor.cs: c65eaafd47115974a2a9379aae467b0e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraState.cs: 6ae7088fa20820e052d1e4d86059e90b -> 
+  custom:scripting/monoscript/fileName/CinemachineToolbarOverlay.cs: 371b6fc494252d6fda34e207e170cb66 -> 
+  custom:scripting/monoscript/fileName/CinemachineIndependentImpulseListener.cs: 91ae8748b9c36955c333e57505ff90fb -> 
+  custom:scripting/monoscript/fileName/CinemachineMixingCameraEditor.cs: 1c122a21d710512fec62cdc7bd351681 -> 
+  custom:scripting/monoscript/fileName/CinemachinePostProcessing.cs: bf9b100a1b61fd5383288bc96487c194 -> 
+  custom:scripting/monoscript/fileName/CinemachineSameAsFollowTarget.cs: bcfa2d394e1e5460b4ef3dc039214a16 -> 
+  custom:scripting/monoscript/fileName/CinemachineVirtualCameraBaseEditor.cs: 13ee4931cd85df4b22852d0547b5e690 -> 
+  custom:scripting/monoscript/fileName/UpdateTracker.cs: 3dac8a24a32a32e4bbfeb38ed26ef250 -> 
+  custom:scripting/monoscript/fileName/CinemachineComposerEditor.cs: dda533b9c6cb2b366292f584704bd904 -> 
+  custom:scripting/monoscript/fileName/Cinemachine3rdPersonFollow.cs: 4600bac2bdf6b37d80e86f9aa5a413c3 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: daef40908a951720ed7ce6da67f0c50b -> 20cdaaa988618e7c32f4baf96f88c255
+  custom:scripting/monoscript/fileName/SaveDuringPlay.cs: de39f1962b337699845d3d8a2e8f5bde -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1675731.138160 seconds.
+  path: Assets/RF Castle/Animated/lightA02.png
+  artifactKey: Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA02.png using Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4eb76b245f577cafaba26d92da7ce96e') in 0.087883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RF Castle/Animated/lightB02.png
+  artifactKey: Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightB02.png using Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8ef528a577e513f6c3f65822ba129ad1') in 0.012196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.111959 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild.png
+  artifactKey: Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild.png using Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f6f131468d725f01ebe2b891003642c9') in 1.516872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 959
+========================================================================
+Received Import Request.
+  Time since last request: 12.416181 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/54-2.png
+  artifactKey: Guid(35f0a37a03d5e384a8432b3979c36833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/54-2.png using Guid(35f0a37a03d5e384a8432b3979c36833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6985de318deef7e994e780966fa23ba1') in 0.039640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/65.png
+  artifactKey: Guid(108f8b559b74cbe4aac487d566705d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/65.png using Guid(108f8b559b74cbe4aac487d566705d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '90b321269be3e1e317baaa883ddbdf76') in 0.052043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/66.png
+  artifactKey: Guid(6cca969deaba1ce44acb66875006cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/66.png using Guid(6cca969deaba1ce44acb66875006cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '16af3ea6802bb6167ed356db4413d007') in 0.047260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/77.png
+  artifactKey: Guid(88b90e64fa4e36e4ca267d4bcbaf6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/77.png using Guid(88b90e64fa4e36e4ca267d4bcbaf6923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c8d061ef238ac07d40301351a548a4a3') in 0.054458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-4.png
+  artifactKey: Guid(2f2554314f957e942b0a2caf0d241c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-4.png using Guid(2f2554314f957e942b0a2caf0d241c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0ddba04adfdf80200f85bc199eeeed9a') in 0.040583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/63.png
+  artifactKey: Guid(fec98173121c73249a5067f9d270ebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/63.png using Guid(fec98173121c73249a5067f9d270ebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7771070943b99f13cc9456407a2a7367') in 0.047524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-1.png
+  artifactKey: Guid(33e7a4a5171b42b40a2b5a79568eacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-1.png using Guid(33e7a4a5171b42b40a2b5a79568eacb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0b0b977f7c361873b90cd6dcc189e73f') in 0.050657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/57.png
+  artifactKey: Guid(f8e01a516614a7b4aac87a240ee3d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/57.png using Guid(f8e01a516614a7b4aac87a240ee3d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '92eaabc64b0bb6b8d4bd230e8965406e') in 0.045508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/64.png
+  artifactKey: Guid(e9ea009297eb754488972e39670bbe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/64.png using Guid(e9ea009297eb754488972e39670bbe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6c133fbfb849f5c9c28b32c8d1cc54f0') in 0.042889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/70.png
+  artifactKey: Guid(2fa99103f5b59a34ea02947b14d3adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/70.png using Guid(2fa99103f5b59a34ea02947b14d3adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '105ca1f8d017fdad4e03439bd1e1fd02') in 0.041269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/61.png
+  artifactKey: Guid(0a6cb775d0a35fc46860ff3469f77ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/61.png using Guid(0a6cb775d0a35fc46860ff3469f77ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cadffd73159056731f8c26ab15fd2390') in 0.042652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/56-3.png
+  artifactKey: Guid(2dbe9af1e534a814292b02d372746a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/56-3.png using Guid(2dbe9af1e534a814292b02d372746a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8f1b0b0e6c6a53dea5c6ffd254117332') in 0.042955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-3.png
+  artifactKey: Guid(f21d003571389844b9bd77033e22a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/55-3.png using Guid(f21d003571389844b9bd77033e22a597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '29405a07e919bd0c752054732e286a3d') in 0.043366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/59.png
+  artifactKey: Guid(e9d324d6d4146e44a95a5236c8885d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/59.png using Guid(e9d324d6d4146e44a95a5236c8885d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5326cc734ac2292a21f7f62ea7f1dbbe') in 0.043643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/74.png
+  artifactKey: Guid(a80f75efc703944439d4029cc007e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Ground Sprites/74.png using Guid(a80f75efc703944439d4029cc007e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ad695cf295cfa8ea8d1ce38b447e5d50') in 0.040463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.985055 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/54-1.asset
+  artifactKey: Guid(3f024a86f7312474c8b7c58df557610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/54-1.asset using Guid(3f024a86f7312474c8b7c58df557610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7b1bddf7e522cd012441f68d40d9d714') in 0.044215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-0.asset
+  artifactKey: Guid(aedb7c18a85093f49aaad7ce6b1d7e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-0.asset using Guid(aedb7c18a85093f49aaad7ce6b1d7e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cf1560538716fd17f62fe0f378a69ed0') in 0.010093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/78.asset
+  artifactKey: Guid(822ef0dae0704bf45bb03a9cec6c4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/78.asset using Guid(822ef0dae0704bf45bb03a9cec6c4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2ac6d72a8a3c3922c4c429f3b61d1bb9') in 0.012402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/77.asset
+  artifactKey: Guid(c510e0bb60078b249a76c81c8385e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/77.asset using Guid(c510e0bb60078b249a76c81c8385e55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7d0a35763173364b47ac2a4ee1e4c15e') in 0.010061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/54-4.asset
+  artifactKey: Guid(b76ee4ce4afcbd24db23db15b40127ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/54-4.asset using Guid(b76ee4ce4afcbd24db23db15b40127ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '38dea7daa9b24468bf133185bbd1536a') in 0.010826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/65.asset
+  artifactKey: Guid(215089b3c6ac97f4794a425e04415ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/65.asset using Guid(215089b3c6ac97f4794a425e04415ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '372e671512eb4e8013f20f2d1f82a937') in 0.009624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/76.asset
+  artifactKey: Guid(fc62ef1e14762454db375e7f5874ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/76.asset using Guid(fc62ef1e14762454db375e7f5874ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7d51aa09a40e18f5d19fa848cdeb14ba') in 0.010074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-4.asset
+  artifactKey: Guid(38c1ec3bc1f3f44439e3a97c81e71764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-4.asset using Guid(38c1ec3bc1f3f44439e3a97c81e71764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '80ae8e9a23f2d24e2251580ee028c7ee') in 0.010010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55-0.asset
+  artifactKey: Guid(5afe491e927b4e54596e747599b2539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55-0.asset using Guid(5afe491e927b4e54596e747599b2539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bbae5ab123baefa0a662abc65fa1efbd') in 0.010603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55.asset
+  artifactKey: Guid(7505958744dbc014c95bec76eeaac319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55.asset using Guid(7505958744dbc014c95bec76eeaac319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '378adb30ab975539af17590c40a3209d') in 0.012579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-2.asset
+  artifactKey: Guid(abdb892f733f0354ab5ced7d601b55d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/56-2.asset using Guid(abdb892f733f0354ab5ced7d601b55d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ca23af15e7c591930c024f727bc4e426') in 0.010223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/63.asset
+  artifactKey: Guid(d42343e3c094cd84db689bf6d65d385f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/63.asset using Guid(d42343e3c094cd84db689bf6d65d385f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'efa6b584d4f6cb6d374f17c8245d84d3') in 0.010607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/57.asset
+  artifactKey: Guid(38f7764d0dd4d59419607491c4725dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/57.asset using Guid(38f7764d0dd4d59419607491c4725dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6f4088e230dbb21715a06c24442533fc') in 0.010762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55-2.asset
+  artifactKey: Guid(035cb0fbd7e5e0e4aac71dd61bdafd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/55-2.asset using Guid(035cb0fbd7e5e0e4aac71dd61bdafd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9a8510fa269c5427a5732746f4042100') in 0.013966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/71.asset
+  artifactKey: Guid(c1c9ae1e9cd34cf499f5f8b287e33a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GROUND TILESETS RULE TILES/Ground Tiles V3/Rule Tiles/71.asset using Guid(c1c9ae1e9cd34cf499f5f8b287e33a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f242b6378fc0f2a542bf387a285776c7') in 0.010097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
