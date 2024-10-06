@@ -64,6 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Pawns\Pawn.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\ProjectileType.cs" />
+    <Compile Include="Assets\Scripts\Weapons\RangedWeapon.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Queues\DeathQueue.cs" />
+    <Compile Include="Assets\Scripts\Repository.cs" />
+    <Compile Include="Assets\Scripts\Storable.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
@@ -1141,8 +1150,6 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
     <ProjectCapability Remove="LaunchProfiles" />
@@ -1154,5 +1161,11 @@
     <ProjectCapability Remove="ReferenceManagerCOM" />
     <ProjectCapability Remove="AssemblyReferences" />
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\Player\" />
   </ItemGroup>
 </Project>
