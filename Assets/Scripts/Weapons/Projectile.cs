@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts.Weapons
 {
-    public class Projectile : Monobehavior
+    public class Projectile : MonoBehaviour
     {
         private Vector2 shotDirection;
         private float speed;
