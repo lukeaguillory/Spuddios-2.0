@@ -59,32 +59,23 @@
     <UnityVersion>2022.3.44f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\lukea\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
-    <Compile Include="Assets\Scripts\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\Pawns\Goblin.cs" />
-    <Compile Include="Assets\Scripts\Pawns\Pawn.cs" />
-    <Compile Include="Assets\Scripts\Pawns\Player.cs" />
-    <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileType.cs" />
     <Compile Include="Assets\Scripts\Weapons\RangedWeapon.cs" />
-    <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Queues\DeathQueue.cs" />
-    <Compile Include="Assets\Scripts\Repository.cs" />
-    <Compile Include="Assets\Scripts\Storable.cs" />
+    <Compile Include="Assets\Scripts\Pawns\Goblin.cs" />
+    <Compile Include="Assets\Scripts\Pawns\Player.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
-    <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
-    <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Repository.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Storable.cs" />
+    <Compile Include="Assets\Scripts\Pawns\Pawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -923,10 +914,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1139,10 +1126,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1151,6 +1134,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
@@ -1163,11 +1148,5 @@
     <ProjectCapability Remove="ReferenceManagerCOM" />
     <ProjectCapability Remove="AssemblyReferences" />
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Collections" Version="4.3.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Scripts\Player\" />
   </ItemGroup>
 </Project>
