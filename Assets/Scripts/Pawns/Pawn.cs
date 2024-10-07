@@ -7,6 +7,8 @@ namespace Assets.Scripts.Pawns
         public string Name;
         public float Health;
         public float Damage;
+        public float MovementSpeed;
+        public bool IsHostile;
 
         public void TakeDamage(float amount)
         {
