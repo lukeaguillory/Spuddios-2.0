@@ -15,8 +15,11 @@ namespace Assets.Scripts.Pawns
         {
             var newHealth = Health - amount;
 
-            if (newHealth < 0)
+            if (newHealth <= 0)
+            {
                 DeathQueue.Enqueue(Id);
+            }
+                
 
             Health = newHealth;
         }

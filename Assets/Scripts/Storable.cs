@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using Assets.Scripts.Pawns;
+using Assets.Scripts.Player;
 
 namespace Assets.Scripts
 {

@@ -6,6 +6,7 @@
 *.obj
 obj
 bin
+Library/ArtifactDB
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #

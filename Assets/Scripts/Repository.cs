@@ -37,5 +37,16 @@ namespace Assets.Scripts
 
             _repository.Add(key, obj);
         }
+
+        public static void GetAllOfType(string compenentName)
+        {
+            foreach (KeyValuePair<string, object> entry in _repository)
+            {
+                if(entry.Key.StartsWith("Enemy"))
+                {
+
+                }
+            }
+        }
     }
 }

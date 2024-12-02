@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Spuddios-2.0.sln"
+    "dotnet.defaultSolution": "Leeten.sln"
 }
