@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Weapons
 {
-    public class Projectile : Monobehavior
+    public class Projectile : MonoBehaviour
     {
         Rigidbody2D rb;
         private Vector2 shotDirection;
