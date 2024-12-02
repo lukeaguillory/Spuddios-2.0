@@ -73,30 +73,23 @@
     <Compile Include="Assets\Scripts\Pawns\Goblin.cs" />
     <Compile Include="Assets\Scripts\Pawns\Player.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Scripts\Pawns\EnemyStatue.cs" />
-=======
->>>>>>> parent of 424d91b (initial stick input)
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Repository.cs" />
     <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Pawns\EnemyStatueSpawner.cs" />
     <Compile Include="Assets\Scripts\Pawns\Shoot.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\grid.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
-=======
->>>>>>> parent of 424d91b (initial stick input)
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\Scripts\Storable.cs" />
     <Compile Include="Assets\Scripts\Pawns\Pawn.cs" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
     <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
     <None Include="Assets\Pixel Monster Pack\notes.txt" />
@@ -104,8 +97,6 @@
     <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
   </ItemGroup>
   <ItemGroup>
-=======
->>>>>>> parent of 424d91b (initial stick input)
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
