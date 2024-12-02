@@ -25,10 +25,3 @@ namespace Assets.Scripts.Pawns
         }
     }
 }
-
-Enemy spawner on screen edge
-Attack closest enemy
-Enemy death
-
-Background/environment generation
-stretch goal animation
