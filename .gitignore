@@ -64,3 +64,12 @@ sysinfo.txt
  
 # Crashlytics generated file
 crashlytics-build.properties
+Library/ArtifactDB
+Library/ArtifactDB-lock
+Library/Search/transactions.db
+Library/SourceAssetDB
+Library/SourceAssetDB-lock
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
