@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Scripts\TileGenerator.cs" />
     <Compile Include="Assets\Scripts\Weapons\ProjectileType.cs" />
     <Compile Include="Assets\Scripts\Weapons\RangedWeapon.cs" />
     <Compile Include="Assets\Scripts\Queues\DeathQueue.cs" />
