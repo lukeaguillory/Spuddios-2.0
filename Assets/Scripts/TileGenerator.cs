@@ -44,21 +44,16 @@ public class TileGenerator : MonoBehaviour
             if (tileMap.GetTile(here) == null)
             {
                 tileMap.SetTile(here, GetRandomTile());
-
-                if (UnityEngine.Random.Range(0, 100) <= percentChanceForFoliage)
-                {
-                    Instantiate(GetRandomFoliage(), here, Quaternion.identity);
-                }
+                PlaceFoliage();
             }
 
             here = new Vector3Int(i, y - 6, 0);
             if (tileMap.GetTile(here) == null)
             {
                 tileMap.SetTile(here, GetRandomTile());
-                if (UnityEngine.Random.Range(0, 100) <= percentChanceForFoliage)
-                {
-                    Instantiate(GetRandomFoliage(), here, Quaternion.identity);
-                }
+                PlaceFoliage();
+
+
             }
         }
 
@@ -68,20 +63,14 @@ public class TileGenerator : MonoBehaviour
             if (tileMap.GetTile(here) == null)
             {
                 tileMap.SetTile(here, GetRandomTile());
-                if (UnityEngine.Random.Range(0, 100) <= percentChanceForFoliage)
-                {
-                    Instantiate(GetRandomFoliage(), here, Quaternion.identity);
-                }
+                PlaceFoliage();
             }
 
             here = new Vector3Int(x - 12, i, 0);
             if (tileMap.GetTile(here) == null)
             {
                 tileMap.SetTile(here, GetRandomTile());
-                if (UnityEngine.Random.Range(0, 100) <= percentChanceForFoliage)
-                {
-                    Instantiate(GetRandomFoliage(), here, Quaternion.identity);
-                }
+                PlaceFoliage();
             }
         }
     }
@@ -96,8 +85,11 @@ public class TileGenerator : MonoBehaviour
         return foliage[UnityEngine.Random.Range(0, foliage.Count)];
     }
 
-    public void SetTimeUntilPlaceFoliage()
+    public void PlaceFoliage()
     {
-        _timeUntilSpawn = UnityEngine.Random.Range(_minimumSpawnTime, _maximumSpawnTime);
+        if (UnityEngine.Random.Range(0, 100) <= percentChanceForFoliage)
+        {
+            Instantiate(GetRandomFoliage(), here, Quaternion.identity);
+        }
     }
 }
