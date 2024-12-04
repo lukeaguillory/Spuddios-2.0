@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638639188768561169
-    m_Hash: 2355871424
+      ticks: 638687874718596221
+    m_Hash: 2491792369
   m_LockFileStatus:
     m_FilePath: C:/Users/lukea/Projects/Spuddios-2.0/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638639188768601068
-    m_Hash: 2888380928
+      ticks: 638687874915566090
+    m_Hash: 4264336778
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,139 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/lukea/Projects/Spuddios-2.0/Packages
 m_EditorVersion: 2022.3.44f1 (c3ae09b9f03c)
 m_ResolvedPackages:
+- packageId: com.unity.2d.tilemap.extras@https://github.com/Unity-Technologies/2d-extras.git#master
+  testable: 0
+  isDirectDependency: 1
+  version: 2.2.5
+  source: 5
+  resolvedPath: C:\Users\lukea\Projects\Spuddios-2.0\Library\PackageCache\com.unity.2d.tilemap.extras@8de698ac55
+  assetPath: Packages/com.unity.2d.tilemap.extras
+  name: com.unity.2d.tilemap.extras
+  displayName: 2D Tilemap Extras
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: '2D Tilemap Extras is a package that contains extra scripts for use
+    with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
+    the Tilemap feature.
+
+
+    The following are included in the package:
+
+    Brushes:
+    GameObject Brush, Group Brush, Line Brush, Random Brush
+
+    Tiles: Animated
+    Tile, Rule Tile, Rule Override Tile
+
+    Other: Grid Information, Custom Rules
+    for Rule Tile'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 1.8.4-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.2.7
+    - 2.2.8
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.1.0
+    compatible:
+    - 3.1.2
+    - 3.1.3
+    recommended: 3.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 3.1.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.collab-proxy@2.5.2
   testable: 0
   isDirectDependency: 1
@@ -119,10 +252,12 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     compatible:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -255,7 +390,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 3.1.2
+    version: 2.2.5
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.2d.aseprite
@@ -431,9 +566,11 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.31
-    recommended: 3.0.31
+    - 3.0.34
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -699,6 +836,7 @@ m_ResolvedPackages:
     - 1.10.0
     - 1.11.0
     - 1.11.1
+    - 1.11.2
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -710,6 +848,7 @@ m_ResolvedPackages:
     - 1.10.0
     - 1.11.0
     - 1.11.1
+    - 1.11.2
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -1391,9 +1530,11 @@ m_ResolvedPackages:
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
     compatible:
     - 1.9.4
-    recommended: 1.9.4
+    - 1.9.5
+    recommended: 1.9.5
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2534,6 +2675,61 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.modules.uielementsnative@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\lukea\Projects\Spuddios-2.0\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: 
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: shim
+  description: 
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3742,8 +3938,10 @@ m_ResolvedPackages:
     - 2.3.0
     - 2.3.1
     - 2.3.2
+    - 2.4.0
     compatible:
     - 2.3.2
+    - 2.4.0
     recommended: 2.3.2
     deprecated: []
   dependencies:
@@ -3904,6 +4102,7 @@ m_ResolvedPackages:
     - 7.0.13
     - 7.1.0
     - 7.1.1
+    - 7.1.2
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
@@ -3922,6 +4121,7 @@ m_ResolvedPackages:
     - 9.1.0
     - 9.1.1
     - 9.1.2
+    - 9.1.3
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -3932,10 +4132,12 @@ m_ResolvedPackages:
     - 10.1.1
     - 10.1.2
     - 10.1.3
+    - 10.1.4
     compatible:
     - 9.1.1
     - 9.1.2
-    recommended: 9.1.2
+    - 9.1.3
+    recommended: 9.1.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -4417,6 +4619,7 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.0.4
+    - 9.0.5
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4426,9 +4629,11 @@ m_ResolvedPackages:
     - 10.0.4
     - 10.0.5
     - 10.0.6
+    - 10.0.7
     compatible:
     - 9.0.4
-    recommended: 9.0.4
+    - 9.0.5
+    recommended: 9.0.5
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -4559,135 +4764,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.2d.tilemap.extras@3.1.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.1.2
-  source: 1
-  resolvedPath: C:\Users\lukea\Projects\Spuddios-2.0\Library\PackageCache\com.unity.2d.tilemap.extras@3.1.2
-  assetPath: Packages/com.unity.2d.tilemap.extras
-  name: com.unity.2d.tilemap.extras
-  displayName: 2D Tilemap Extras
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: assets
-  description: '2D Tilemap Extras is a package that contains extra scripts for use
-    with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
-    the Tilemap feature.
-
-
-    The following are included in the package:
-
-    Brushes:
-    GameObject Brush, Group Brush, Line Brush, Random Brush
-
-    Tiles: Animated
-    Tile, Rule Tile, Rule Override Tile
-
-    Other: Grid Information, Custom Rules
-    for Rule Tile'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.5.0-preview
-    - 1.6.0-preview.1
-    - 1.6.1-preview
-    - 1.6.2-preview
-    - 1.6.3-preview
-    - 1.6.4-preview
-    - 1.7.0-preview
-    - 1.8.0-preview
-    - 1.8.1-preview
-    - 1.8.2-preview
-    - 1.8.3-preview
-    - 1.8.4-preview
-    - 2.0.0-pre.1
-    - 2.0.0-pre.2
-    - 2.0.0
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 2.2.3
-    - 2.2.4
-    - 2.2.5
-    - 2.2.6
-    - 2.2.7
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    compatible:
-    - 3.1.2
-    recommended: 3.1.2
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638320873890000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 741b52ca8bcd71b4e016208dbfe792374ca334c8
-    path: 
-  unityLifecycle:
-    version: 3.1.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4989,6 +5065,7 @@ m_ResolvedPackages:
     - 6.0.5
     - 6.0.6
     - 6.0.7
+    - 6.0.8
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
@@ -5001,6 +5078,7 @@ m_ResolvedPackages:
     - 8.0.1
     - 8.0.2
     - 8.0.3
+    - 8.0.4
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -5010,9 +5088,11 @@ m_ResolvedPackages:
     - 9.0.4
     - 9.0.5
     - 9.0.6
+    - 9.0.7
     compatible:
     - 8.0.3
-    recommended: 8.0.3
+    - 8.0.4
+    recommended: 8.0.4
     deprecated: []
   dependencies:
   - name: com.unity.burst
