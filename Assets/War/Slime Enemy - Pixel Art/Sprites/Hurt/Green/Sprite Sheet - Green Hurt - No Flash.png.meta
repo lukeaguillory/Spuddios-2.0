@@ -139,6 +139,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -146,12 +159,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5017433, y: 0.13942784}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +180,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_1
       rect:
         serializedVersion: 2
-        x: 96
+        x: 122
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 40
+        height: 22
+      alignment: 9
+      pivot: {x: 0.50286216, y: 0.13561521}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +201,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_2
       rect:
         serializedVersion: 2
-        x: 192
+        x: 218
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 40
+        height: 22
+      alignment: 9
+      pivot: {x: 0.49999887, y: 0.14082073}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +222,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_3
       rect:
         serializedVersion: 2
-        x: 288
+        x: 312
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 42
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5190851, y: 0.109587744}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,12 +243,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_4
       rect:
         serializedVersion: 2
-        x: 384
+        x: 406
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 44
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5518084, y: 0.10625727}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +264,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_5
       rect:
         serializedVersion: 2
-        x: 480
+        x: 499
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 47
+        height: 22
+      alignment: 9
+      pivot: {x: 0.61678755, y: 0.12020941}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +285,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_6
       rect:
         serializedVersion: 2
-        x: 576
+        x: 593
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6265084, y: 0.14074855}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +306,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_7
       rect:
         serializedVersion: 2
-        x: 672
+        x: 688
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 50
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6394751, y: 0.1337044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,12 +327,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_8
       rect:
         serializedVersion: 2
-        x: 768
+        x: 784
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 50
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6456738, y: 0.1337044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +348,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_9
       rect:
         serializedVersion: 2
-        x: 864
+        x: 880
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 50
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6487744, y: 0.14074855}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,12 +369,12 @@ TextureImporter:
       name: Sprite Sheet - Green Hurt - No Flash_10
       rect:
         serializedVersion: 2
-        x: 960
+        x: 979
         y: 0
-        width: 96
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 47
+        height: 22
+      alignment: 9
+      pivot: {x: 0.62529737, y: 0.14779268}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

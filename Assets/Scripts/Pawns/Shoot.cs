@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,6 +34,6 @@ public class Shoot : MonoBehaviour
     {
         GameObject projectile = Instantiate(_bulletPrefab, transform.position, transform.rotation);
         Rigidbody2D rigidbody = projectile.GetComponent<Rigidbody2D>();
-        rigidbody.velocity = _bulletSpeed * transform.up;
+        rigidbody.velocity = _bulletSpeed * transform.up; //TODO: swap out transform.up for nearest enemy location
     }
 }

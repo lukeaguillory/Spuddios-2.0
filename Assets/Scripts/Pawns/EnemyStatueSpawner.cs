@@ -1,7 +1,4 @@
-using Assets.Scripts;
-using Assets.Scripts.Pawns;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 namespace Assets.Scripts.Pawns
@@ -14,18 +11,20 @@ namespace Assets.Scripts.Pawns
         // Start is called before the first frame update
         void Start()
         {
-
+            player = Repository.FirstOrDefault<GameObject>(Player.ID);
         }
 
         // Update is called once per frame
         void Update()
         {
             _timeUntilSpawn -= Time.deltaTime;
+            SetShouldSpawn();
 
-            if (_timeUntilSpawn <= 0)
+            if (_timeUntilSpawn <= 0 && shouldSpawn)
             {
                 GameObject newEnemy = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
-                Repository.Add(newEnemy.GetComponent<EnemyStatue>().Id, newEnemy);
+                newEnemy.GetComponent<EnemyStatue>().Id = System.Guid.NewGuid().ToString();
+                Repository.AddEnemy(newEnemy.GetComponent<EnemyStatue>().Id, newEnemy);
                 SetTimeUntilSpawn();
             }
         }
